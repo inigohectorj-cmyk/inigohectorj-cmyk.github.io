@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portal de Evaluación Maestría – Revisión de instrumentos de evaluación alineados con competencias y resultados de aprendizaje." />
+  <title>Evaluación Maestría | UTEL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #4000bc; /* Morado UTEL */
+      --light: #f7f7f7;
+      --dark: #1f1f1f;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: var(--dark);
+      background-color: var(--white);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://lh3.googleusercontent.com/sitesv/AICyYdY81NTVpvUalfYiGstjTAsI0_vdmPE9M_xo_sLil55ja3C8segMu8FYmEs303XLzOyUF6pzmIxexHLkbnhSPOQ31RQ7jIluhZp2WYhaoEv1dFT_S48AXhuQfN8xAWtseOdkxfQl_zfzszw8cmQRr6PioIdBkDOPqEWj0Z7CDupevqwTuhowKispmtM=w16383');
+      background-size: cover;
+      background-position: center;
+      color: var(--white);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      font-size: 1.1rem;
+      text-align: justify;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .highlight {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin: 25px 0;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    .card h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.6rem;
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #2a0080;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      font-size: 0.9rem;
+      border-top: 1px solid #eee;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .card h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Evaluación Maestría</h1>
+    <p>Revisión de instrumentos de evaluación alineados con competencias y resultados de aprendizaje</p>
+  </header>
+
+  <div class="container">
+    <p class="intro">
+      Bienvenido al espacio de <span class="highlight">Evaluación Maestría</span>.<br>
+      Esta página te permitirá entender el papel que juegas en la <span class="highlight">Actividad de Revisión de los Instrumentos de Evaluación</span>, 
+      con el objetivo de asegurar su alineación con los resultados de aprendizaje y competencias de la materia.
+    </p>
+    <p class="intro">
+      Aquí podrás identificar qué actividades debes realizar y en qué momentos. Revisa los apartados y toma en cuenta las recomendaciones a seguir.
+    </p>
+
+    <!-- Tarjetas de secciones (como enlaces a otras páginas o secciones) -->
+    <div class="card">
+      <h2>Revisión Anticipada</h2>
+      <p>Accede a los lineamientos y criterios para la revisión anticipada de instrumentos.</p>
+      <a href="#revision-anticipada">Consultar</a>
+    </div>
+
+    <div class="card">
+      <h2>Materiales de Consulta</h2>
+      <p>Recursos, rúbricas y guías para apoyar tu labor evaluativa.</p>
+      <a href="#materiales">Explorar</a>
+    </div>
+
+    <div class="card">
+      <h2>Revisión de Instrumentos</h2>
+      <p>Formularios y herramientas para la retroalimentación y mejora continua.</p>
+      <a href="#instrumentos">Ingresar</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Universidad Tecnológica de México (UTEL) – Dirección de Evaluación Académica</p>
+  </footer>
+
+</body>
+</html>
